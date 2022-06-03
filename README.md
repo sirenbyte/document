@@ -27,7 +27,7 @@ if (inputString.length() == 0) {
 Add a stop symbol to the end of _input String_. In our case, the exclamation mark (!).<br>
 Compare the **pointer** with the next element, if it is equal, increase the counter. Otherwise, we add
 the counter and the current letter to _output String_, then reset the counter to "1".<br>
-We do not go to the end of the string length, we stop "_length-1_" so that the "**element after the pointer**" does not go beyond the length of the string
+We do not go to the end of the string length, we stop "**_length-1_**" so that the "**element after the pointer**" does not go beyond the length of the string
 
 ```
 inputString += SYMBOL_FOR_END_STRING;
@@ -52,7 +52,7 @@ for (int i = 0; i < inputString.length() - 1; i++) {
 In order for us to accept only letters as input, we set limits.<br>
 To do this, we compare the ASCII code of the element with the ASCII code for lowercase letters.<br>
 
-_**Important**: We only need to compare the **pointer** code. The very last element of the string is not taken into account, since we are working up to the **length - 1** step._
+_**Important**: We only need to compare the **pointer** code. The very last element of the string is not taken into account, since we are working up to the "**length - 1**" step._
 
 ```
 char current = inputString.charAt(i);
