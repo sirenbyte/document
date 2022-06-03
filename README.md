@@ -52,7 +52,7 @@ for (int i = 0; i < inputString.length() - 1; i++) {
 In order for us to accept only letters as input, we set limits.<br>
 To do this, we compare the ASCII code of the element with the ASCII code for lowercase letters.<br>
 
-_Important: We only need to compare the **pointer** code. The very last element of the string is not taken into account, since we are working up to the **length - 1** step._
+_**Important**: We only need to compare the **pointer** code. The very last element of the string is not taken into account, since we are working up to the **length - 1** step._
 
 ```
 char current = inputString.charAt(i);
