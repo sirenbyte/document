@@ -1,4 +1,4 @@
-### Count Letters in String
+### Count Repeat Letters in String
 
 **Task**: Given a string, entirely consisting of lowercase letters [**a-z**], collapse runs of these characters into the number of
 repeats.<br>
