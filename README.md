@@ -14,7 +14,7 @@ Task illustration:
 
 #### **First step**
 
-We need check, that _inputString_ not empty. If empty, we throw an exception
+We need to check that _inputString_ is not empty. If empty, we throw an exception
 
 ```
 if (inputString.length() == 0) {
